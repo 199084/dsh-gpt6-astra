@@ -50,6 +50,15 @@ git clone https://github.com/199084/dsh-gpt6-astra.git
 ln -s "$(pwd)/dsh-gpt6-astra" ~/.dsh/skills/dsh-gpt6-astra
 ```
 
+### 更新
+
+符号链接安装的技能目录直接指向仓库，拉取上游改动后立即生效，无需重新安装：
+
+```bash
+cd dsh-gpt6-astra
+git pull
+```
+
 ### 基本用法
 
 在 DSH 会话中显式调用：
